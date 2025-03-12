@@ -29,6 +29,13 @@ ul > li {
   padding: 8px;
   text-align: center;
 }
+a,
+a:hover,
+a:active,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
 
 .card {
   border-style: solid;
@@ -58,6 +65,9 @@ th {
 
 tr > td {
   padding: 8px;
+}
+tr:hover {
+  background-color: yellow;
 }
 
 td.id {
