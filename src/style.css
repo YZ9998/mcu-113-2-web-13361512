@@ -17,6 +17,19 @@ nav {
   margin-bottom: 10px;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul > li {
+  border: #999 1px solid;
+  display: inline-block;
+  width: 80px;
+  padding: 8px;
+  text-align: center;
+}
+
 .card {
   border-style: solid;
   border-color: #999;
