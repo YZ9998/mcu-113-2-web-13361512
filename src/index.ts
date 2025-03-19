@@ -1,10 +1,11 @@
-let productId = 1;
-console.log("productId =", productId);
-let productName = "圖像 Angular 開發入門 第二版"; // 區域變數
-console.log("productName =", productName);
-let isShow = true;
-console.log("Is Show =", isShow);
-let createDate = new Date();
-console.log("Create Date =", createDate);
-let modifyDate: Date | undefined = undefined;
-console.log("Modify Date =", modifyDate);
+let product = {
+  id: 1,
+  name: "圖像 Angular 開發入門 第二版",
+  company: "博碩文化",
+  price: 500,
+  isShow: true,
+  createDate: 2024 - 4 - 10,
+  modifyDate: undefined,
+};
+console.log(product);
+console.table(product);
