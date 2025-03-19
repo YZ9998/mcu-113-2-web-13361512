@@ -6,6 +6,10 @@ export class Product {
     public price: number,
     public isShow: boolean,
     public createDate: Date,
-    public modifyDate: undefined | Date
+    public modifyDate?: undefined | Date
   ) {}
+
+  setDisplay(isShow: boolean): void {
+    this.isShow = isShow;
+  }
 }
